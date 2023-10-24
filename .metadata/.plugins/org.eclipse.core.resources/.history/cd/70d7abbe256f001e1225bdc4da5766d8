@@ -1,0 +1,22 @@
+package date_231020;
+
+import java.util.Scanner;
+
+public class RemoveDuplicateChar {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("문자열을 입력하세요");
+		String s = sc.nextLine();
+		String result = "";
+
+		for (int i = 0; i < s.length(); i++) { // i가 s.length 까지 돌면서
+			if (s.indexOf(s.charAt(i)) == i) // indexOf는 특정 문자의 첫번째 위치 반환
+				result = result + s.charAt(i);
+		}
+
+		System.out.println(result);
+	}
+
+}

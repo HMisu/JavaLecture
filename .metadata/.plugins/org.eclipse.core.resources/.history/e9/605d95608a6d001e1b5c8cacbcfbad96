@@ -1,0 +1,9 @@
+package chap07_class;
+
+public class _04_PlayNumBaseball {
+
+	public static void main(String[] args) {
+
+	}
+
+}

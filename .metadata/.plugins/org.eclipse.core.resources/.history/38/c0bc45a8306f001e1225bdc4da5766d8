@@ -1,0 +1,15 @@
+package date_231020.student;
+
+public interface Student {
+	void saveInfo();
+
+	void printInfo();
+
+	default public double getAvg() {
+		double totalScore = 0;
+		for (int i = 0; i < finalExamScore.length; i++) {
+			totalScore += finalExamScore[i];
+		}
+		return Math.round((totalScore / subject.length) * 100);
+	}
+}

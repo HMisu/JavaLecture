@@ -1,0 +1,34 @@
+package chap07_class;
+
+import chap07_class.board.Board;
+
+public class _05_UseOfBoard {
+
+	public static void main(String[] args) {
+		// 1. 클래스는 변수로 선언해 객체를 값으로 받아 사용
+		// 따라서 클래스는 사용자가 직접 만든 타입으로 생각해도 됨
+		Board board;
+
+		// 2. 클래스 내의 속성이나 기능들은 객체가 만들어진 후에 사용가능하고
+		// 객체.속성명, 객체 기능명으로 사용
+
+		// 3. 객체를 만드는 과정은 new 키워드+생성자를 통해 진행
+		board = new Board();
+		board.setBoardNo(1);
+		board.setBoadTitle("제목");
+		board.setBoardContent("내용");
+		board.setBoardWriter("작성자");
+		board.setBoardDate("23-10-10");
+
+		printBoardInfo(board);
+	}
+
+	public static void printBoardInfo(Board board) {
+		System.out.println(board.getBoardNo());
+		System.out.println(board.getBoadTitle());
+		System.out.println(board.getBoardContent());
+		System.out.println(board.getBoardWriter());
+		System.out.println(board.getBoardDate());
+	}
+
+}

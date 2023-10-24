@@ -1,0 +1,11 @@
+package chap12_interface.mutiinherit;
+
+public class Child implements Father, Mother {
+
+	public void shy() {
+	}
+
+	public void repair() {
+	}
+
+}

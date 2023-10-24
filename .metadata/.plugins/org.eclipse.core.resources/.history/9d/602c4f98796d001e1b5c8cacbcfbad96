@@ -1,0 +1,24 @@
+package chap07_class;
+
+import chap07_class.car.Car;
+
+public class _01_Instance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 객체는 항상 변수로 만들어 사용
+		Car car;
+
+		// 2. 인스턴스화를 통해 객체 생성
+		// 인스턴스화 (객체화)는 new+생성자
+		car = new Car();
+
+		// 기본타입 변수는 0, false로 초기화. 참조형타입 변수는 null로 초기화
+		System.out.println(car.color);
+		System.out.println(car.company);
+		System.out.println(car.model);
+		System.out.println(car.price);
+
+	}
+
+}

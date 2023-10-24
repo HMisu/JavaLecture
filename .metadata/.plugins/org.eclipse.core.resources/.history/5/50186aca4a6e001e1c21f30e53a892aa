@@ -1,0 +1,33 @@
+package chap11_abstraction.tv;
+
+public class LgTv extends Tv {
+
+	@Override
+	public void powerOn() {
+		System.out.println("제조사: LG");
+		System.out.println("TV의 전원을 켭니다.");
+	}
+
+	@Override
+	public void powerOff() {
+		System.out.println("제조사: LG");
+		System.out.println("TV의 전원을 끕니다.");
+	}
+
+	@Override
+	public void operate(int channel) {
+	}
+
+	@Override
+	public void moveTo(int channel) {
+	}
+
+	@Override
+	public void channelUp() {
+	}
+
+	@Override
+	public void channelDown() {
+	}
+
+}

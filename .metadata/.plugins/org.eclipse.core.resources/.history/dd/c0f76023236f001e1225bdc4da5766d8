@@ -1,0 +1,13 @@
+package date_231020.car;
+
+public class ElectronicCar implements Car {
+
+	@Override
+	public void seppedUp() {
+	}
+
+	@Override
+	public void speedDown() {
+	}
+
+}

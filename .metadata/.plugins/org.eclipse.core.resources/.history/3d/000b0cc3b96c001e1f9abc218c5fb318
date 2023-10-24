@@ -1,0 +1,26 @@
+package chap05_Array;
+
+public class _03_ArrayExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char[] chArr = {'b','I','t','C'};
+		char[] convertArr = new char[4];
+		
+		for(int i=0; i<chArr.length;i++) {
+			char c = chArr[i];
+			if('a'<=c||c>='z') {
+				convertArr[i] = (char) (c+32);
+			}
+			else {
+				convertArr[i] = (char) (c-32);
+			}
+			//convertArr[i] = chArr[i];
+		}
+		
+		for(int j=0; j<convertArr.length; j++) {
+			System.out.println("convertArr["+j+"]: "+convertArr[j]);
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+package date_231019;
+
+public class Felidae extends Mammal {
+	int name;
+	String kingdom;
+	int divison;
+
+	public Felidae() {
+
+	}
+
+	public Mammal(int name, String kingdom, int divison) {
+		this.name = name;
+		this.kingdom = kingdom;
+		this.divison = divison;
+	}
+}

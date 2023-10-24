@@ -1,0 +1,21 @@
+package date_231023;
+
+public class Middle_02 {
+	// 길이가 12인 char 배열을 선언하고 {'b', 'c', 's', 'i', 'i', 'o', 'q', 'n', 't', 'm', 'l',
+	// 't'}로 초기화합니다.
+	// 단어를 bit, com, sql, int로 만들어서 모두 출력하세요.(힌트 bit => [0], [4], [8]에 있습니다.)
+
+	public static void main(String[] args) {
+		char[] chrArr = { 'b', 'c', 's', 'i', 'i', 'o', 'q', 'n', 't', 'm', 'l', 't' };
+
+		// bit
+		System.out.println(String.valueOf(chrArr[0]) + String.valueOf(chrArr[4]) + String.valueOf(chrArr[8]));
+		// com
+		System.out.println(String.valueOf(chrArr[1]) + String.valueOf(chrArr[5]) + String.valueOf(chrArr[10]));
+		// sql
+		System.out.println(String.valueOf(chrArr[2]) + String.valueOf(chrArr[6]) + String.valueOf(chrArr[12]));
+		// int
+		System.out.println(String.valueOf(chrArr[3]) + String.valueOf(chrArr[8]) + String.valueOf(chrArr[9]));
+	}
+
+}

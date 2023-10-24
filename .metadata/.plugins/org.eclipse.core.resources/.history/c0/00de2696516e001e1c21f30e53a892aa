@@ -1,0 +1,10 @@
+package date_231019;
+
+public class Mammal {
+	String name;
+	int age;
+	
+	public Mammal() {
+
+	}
+}

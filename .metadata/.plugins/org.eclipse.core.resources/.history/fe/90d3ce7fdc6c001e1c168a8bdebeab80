@@ -1,0 +1,19 @@
+package date_231017;
+
+public class TernaryOperator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 삼항 조건 연산자를 이용하여 String str = "dBEfIZ"; 를 이용하여 ajEfcC 출력하세요.
+		String str="dBEfIZ";
+		String result="";
+		
+		for(int i = 0; i < str.length(); i++) {
+			char ch = str.charAt(i);
+			ch = (ch == 'Z')? 'a' : (char)(('A' <= ch && ch <= 'Z')? ch+33 : ch-33);
+			result = ch + result;
+		}
+		System.out.println(result);
+	}
+
+}

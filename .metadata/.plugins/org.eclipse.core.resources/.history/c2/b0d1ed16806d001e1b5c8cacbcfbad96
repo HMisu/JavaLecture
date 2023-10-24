@@ -1,0 +1,10 @@
+package chap07_class.circle;
+
+public class Circle {
+	// 1. 상수 double PI 31
+	final double PI = 3.14;
+
+	// 2. 반지름 int radius
+	int radius;
+
+}

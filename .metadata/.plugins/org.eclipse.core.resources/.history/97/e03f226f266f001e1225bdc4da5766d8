@@ -1,0 +1,9 @@
+package date_231020;
+
+public class ChangingCharByIndex {
+
+	public static void main(String[] args) {
+
+	}
+
+}

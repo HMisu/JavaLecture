@@ -1,0 +1,19 @@
+package date_231019;
+
+public class Worker {
+	public Worker() {
+
+	}
+
+	public void goToWork() {
+		System.out.println("출근하다.");
+	}
+	
+	public void getOffWork() {
+		System.out.println("퇴근하다.");
+	}
+	
+	public void work() {
+		System.out.println("일한다.");
+	}
+}

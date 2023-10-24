@@ -1,0 +1,7 @@
+package date_231019;
+
+public class Mammal {
+	public Mammal() {
+		
+	}
+}

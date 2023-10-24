@@ -1,0 +1,15 @@
+package date_231019.advance_02;
+
+public class FullTime extends Employee {
+	int bonus;
+
+	@Override
+	public double getMonthPay() {
+		return 0;
+	}
+
+	@Override
+	public void showEmployeeInfo() {
+		System.out.println("정규직 사번: " + eno + "이름: " + name + "급여: " + pay);
+	}
+}

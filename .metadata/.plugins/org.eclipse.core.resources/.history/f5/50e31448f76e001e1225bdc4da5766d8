@@ -1,0 +1,13 @@
+package chap07_class;
+
+import chap07_class.board.Board;
+
+public class _05_UseOfBoard {
+
+	public static void main(String[] args) {
+		//1. 클래스는 변수로 선언해 객체를 값으로 받아 사용
+		// 따라서 클래스는 사용자가 직접 만든 타입으로 생각해도 됨
+		Board board = new Board();
+	}
+
+}

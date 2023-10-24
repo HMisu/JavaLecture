@@ -1,0 +1,37 @@
+package chap14_objectarray;
+
+import chap14_objectarray.objectarray.English;
+import chap14_objectarray.objectarray.InterfaceArray;
+import chap14_objectarray.objectarray.MathMetics;
+import chap14_objectarray.objectarray.Programming;
+
+public class _02_InterfaceArray {
+
+	public static void main(String[] args) {
+		InterfaceArray[] ia = new InterfaceArray[4];
+
+		ia[0] = new English("영어", 15, 30);
+		ia[1] = new Programming("수학", 10, 50);
+		ia[2] = new MathMetics("자바", 10, 45);
+		
+		//인터페이스 타입 배열에 익명 개체를 바로 만들어 넣을 수도 있음
+		ia[3] = new InterfaceArray() {
+
+			@Override
+			public void proceedLecture() {
+				System.out.println("11111");
+			}
+
+			@Override
+			public void run() {
+				System.out.println("22222");
+			}
+			
+		}
+
+		for (InterfaceArray i : ia) {
+			i.proceedLecture();
+		}
+	}
+
+}

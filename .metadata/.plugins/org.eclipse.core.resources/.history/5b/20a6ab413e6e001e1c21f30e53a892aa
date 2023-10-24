@@ -1,0 +1,14 @@
+package chap10_polymorphism.tv;
+
+public class SamsungTv extends Tv {
+	public void poweOn() {
+		System.out.println("제조사: 삼성");
+		// 부모클래스의 powerOn 메소드 호출
+		// Tv클래스의 powerOn메소드 실행
+		super.powerOn();
+	}
+	
+	public void powerOff() {
+	
+	}
+}

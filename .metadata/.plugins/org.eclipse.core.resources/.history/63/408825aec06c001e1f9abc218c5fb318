@@ -1,0 +1,18 @@
+package chap05_Array;
+
+public class _06_ShallowCopy {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] intArr1 = {1,2,3,4,5};
+		
+		// 1. 얕은 복사
+		int[] intArr2 = intArr1;
+		
+		// 배열명 출력하면 참조형 변수라 주소값이 추력됨
+		System.out.println(intArr1);
+		System.out.println(intArr2);
+		System.out.println(intArr1==intArr2);
+	}
+
+}

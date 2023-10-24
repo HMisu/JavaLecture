@@ -1,0 +1,11 @@
+package date_231020.student;
+
+public interface Student {
+	void saveInfo();
+
+	void printInfo();
+
+	defualt double getAvg() {
+		
+	}
+}

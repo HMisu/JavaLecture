@@ -1,0 +1,17 @@
+package chap11_abstraction.academy;
+
+public class ComAcademy extends Academy {
+
+	public void teach() {
+	}
+
+	public void solveHomework() {
+	}
+
+	public void rest() {
+	}
+
+	public void attend() {
+	}
+
+}

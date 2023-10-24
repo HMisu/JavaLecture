@@ -1,0 +1,39 @@
+package date_231020.student;
+
+import java.util.Scanner;
+
+public class MathStudent extends CommonStat implements Student {
+
+	@Override
+	public void saveInfo() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("학번을 입력하세요");
+		this.sno = sc.nextInt();
+		System.out.println("이름을 입력하세요");
+		this.name = sc.nextLine();
+
+		while (true) {
+			
+		}
+	}
+
+	@Override
+	public void printInfo() {
+		System.out.println("학번: " + sno);
+		System.out.println("이름: " + name);
+		for (int i = 0; i < subject.length; i++) {
+			if (subject[i].equals("Math"))
+				System.out.println("수강과목: 수학" + " / 시험점수: " + finalExamScore[i]);
+		}
+	}
+
+	@Override
+	public double getAvg() {
+		double totalScore = 0;
+		for (int i = 0; i < finalExamScore.length; i++) {
+			totalScore += finalExamScore[i];
+		}
+		return Math.round((totalScore / subject.length) * 100);
+	}
+
+}

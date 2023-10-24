@@ -1,0 +1,7 @@
+package date_231018;
+
+public class ConcatStr {
+	public String str1;
+	public String str2;
+
+}

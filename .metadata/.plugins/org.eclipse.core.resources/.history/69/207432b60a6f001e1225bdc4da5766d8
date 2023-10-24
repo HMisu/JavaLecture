@@ -1,0 +1,25 @@
+package chap09_inherit;
+
+import chap09_inherit.board.Board;
+import chap09_inherit.board.FreeBoard;
+import chap09_inherit.board.NoticeBoard;
+
+public class _04_InheritBoard {
+
+	public static void main(String[] args) {
+		Board board = new FreeBoard(1, "제목", "내용", "작성자", "231020", "첨부파일.jpg");
+		FreeBoard freeboard = new FreeBoard(1, "자유게시판 제목", "자유게시판 내용", "작성자", "231020", "java.jpg");
+		NoticeBoard noticeBoard = new NoticeBoard(1, "공지사항게시판 제목", "공지사항게시판 내용", "관리자", "231020", true);
+
+		// 자식클래스를 부모타입으로 사용할 때는 자식클래스의 고유 속성이나 기능 사용 못함
+		// board.upload("파일제목"); 에러
+		freeboard.upload("파일제목");
+
+		// 자식클래스를 부모타입으로 사용하면 하나의 변수로 여러 자식클래스를 사용할 수 있음
+		// 다양한 형태로 사용할 수 있어 다형성이라고 부름
+
+		board = new FreeBoard(1, "제목", "내용", "작성자", "231020", "첨부파일.jpg");
+		board.insertBoard();
+	}
+
+}

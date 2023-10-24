@@ -1,0 +1,43 @@
+package date_231019;
+
+public class ArrayUtility {
+	// int배열을 double배열로 변환
+	static double[] intToDouble(int[] source) {
+		double[] dArray = new double[source.length];
+
+		for (int i = 0; i < dArray.length; i++) {
+			dArray[i] = (double) source[i];
+		}
+
+		return dArray;
+	} 
+	
+	// double배열을 int배열로 변환
+	static int[] doubleToInt(double[] source) {
+		int[] iArray = new int[source.length];
+
+		for (int i = 0; i < iArray.length; i++) {
+			iArray[i] = (int) source[i];
+		}
+
+		return iArray;
+	}
+
+	public static void main(String[] args) {
+		double[] dArray = { 1.0, 2.0, 3.5 };
+		int[] iArray = { 1, 2, 3 };
+
+		double[] result1 = intToDouble(iArray);
+		System.out.println("int 배열 double 배열로 변환");
+		for (int i = 0; i < result1.length; i++) {
+			System.out.println("int[" + i + "] -> " + iArray[i] + " double[" + i + "] " + result1[i]);
+		}
+		System.out.println();
+		int[] result2 = doubleToInt(dArray);
+		System.out.println("double 배열 int 배열로 변환");
+		for (int i = 0; i < result1.length; i++) {
+			System.out.println("double[" + i + "] -> " + dArray[i] + " int[" + i + "] " + result2[i]);
+		}
+	}
+
+}

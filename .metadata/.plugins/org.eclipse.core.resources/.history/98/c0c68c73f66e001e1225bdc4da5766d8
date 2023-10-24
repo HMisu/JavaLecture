@@ -1,0 +1,10 @@
+package chap07_class.board;
+
+public class Board {
+	int boardNo;
+	String boadTitle;
+	String boardContent;
+	String boardWriter;
+	String boardDate;
+
+}

@@ -1,0 +1,17 @@
+package date_231017;
+
+import java.util.Scanner;
+
+public class MoneyCounter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("금액을 입력하세요.");
+		int bill = sc.nextInt();
+		
+		int num;
+	}
+
+}

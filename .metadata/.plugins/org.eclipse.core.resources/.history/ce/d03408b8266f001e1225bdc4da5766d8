@@ -1,0 +1,17 @@
+package date_231020;
+
+import java.util.Scanner;
+
+public class ChangingCharByIndex {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("문자열을 입력하세요");
+		String s = sc.nextLine();
+		String result = "";
+
+		System.out.println(result);
+	}
+
+}

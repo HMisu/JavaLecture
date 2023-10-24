@@ -1,0 +1,9 @@
+package chap09_inherit;
+
+public class _04_InheritBoard {
+
+	public static void main(String[] args) {
+
+	}
+
+}

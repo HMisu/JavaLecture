@@ -1,0 +1,11 @@
+package date_231018;
+
+public class Calculator {
+	int a;
+	int b;
+	
+	void setValue(int a, int b) {
+		
+	}
+	
+}

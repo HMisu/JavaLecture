@@ -1,0 +1,23 @@
+package chap11_abstraction.academy;
+
+public class ComAcademy extends Academy {
+	// @~~~~ : 어노테이션
+	// 어노테이션 : Java 문서에 작성하는 규칙
+
+	@Override
+	public void teach() {
+	}
+
+	@Override
+	public void solveHomework() {
+	}
+
+	@Override
+	public void rest() {
+	}
+
+	@Override
+	public void attend() {
+	}
+
+}

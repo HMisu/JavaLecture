@@ -1,0 +1,11 @@
+package chap07_class;
+
+import chap07_class.board.Board;
+
+public class _05_UseOfBoard {
+
+	public static void main(String[] args) {
+		Board board = new Board();
+	}
+
+}

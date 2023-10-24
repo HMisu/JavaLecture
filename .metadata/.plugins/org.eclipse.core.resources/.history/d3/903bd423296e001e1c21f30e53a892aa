@@ -1,0 +1,7 @@
+package chap09_inherit.calc;
+
+public class Mul extends Calculator {
+	public int calculate() {
+		return a * b;
+	}
+}

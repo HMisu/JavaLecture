@@ -1,0 +1,9 @@
+package chap09_inherit;
+
+public class _02_Overrding {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package chap04_controlstatement;
+
+import java.util.Scanner;
+
+public class _09_BreakEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("구구단. 0은 종료");
+		int num = sc.nextInt();
+		
+		if(num==0)
+			sc.close();
+		
+		for(int i=2; i<=num; i++) {
+			System.out.println(num+"단");
+			for(int j=1; j<=9; j++) {
+				System.out.print(i+" * "+j+" = "+i*j);
+			}
+			System.out.println("");
+		}
+	
+		
+		sc.close();
+
+	}
+
+}

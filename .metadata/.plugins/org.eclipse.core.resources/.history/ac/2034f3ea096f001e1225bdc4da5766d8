@@ -1,0 +1,15 @@
+package chap09_inherit;
+
+import chap09_inherit.board.Board;
+import chap09_inherit.board.FreeBoard;
+import chap09_inherit.board.NoticeBoard;
+
+public class _04_InheritBoard {
+
+	public static void main(String[] args) {
+		Board borad = new FreeBoard(1, "제목", "내용", "작성자", "231020", "첨부파일.jpg");
+		FreeBoard freeboard = new FreeBoard(1, "자유게시판 제목", "자유게시판 내용", "작성자", "231020", "java.jpg");
+		NoticeBoard noticeBoard = new NoticeBoard();
+	}
+
+}

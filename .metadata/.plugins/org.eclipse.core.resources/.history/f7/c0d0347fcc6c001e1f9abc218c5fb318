@@ -1,0 +1,23 @@
+package date_231017;
+
+import java.util.Scanner;
+
+public class ThreeSixNineGame {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("1~99사이의 정수를 입력해주세요.");
+		int num = sc.nextInt();
+		while(true) {
+			if(num<1||num>99) {
+				System.out.println("다시 입력해주세요.");
+				continue;
+			
+		}
+		
+		sc.close();
+	}
+
+}

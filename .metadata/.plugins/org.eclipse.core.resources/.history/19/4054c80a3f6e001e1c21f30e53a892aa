@@ -1,0 +1,11 @@
+package chap10_polymorphism;
+
+import chap10_polymorphism.tv.Tv;
+
+public class _01_Polymorphism {
+
+	public static void main(String[] args) {
+		Tv tv = new LgTV();
+	}
+
+}

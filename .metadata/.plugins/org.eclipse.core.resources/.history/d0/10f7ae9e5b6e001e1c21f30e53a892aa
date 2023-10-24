@@ -1,0 +1,11 @@
+package date_231019.advance_02;
+
+public class FullTime extends Employee {
+	int bonus;
+	
+	@Override
+	public double getMonthPay() {
+		return 0;
+	}
+
+}

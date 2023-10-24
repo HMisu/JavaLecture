@@ -1,0 +1,64 @@
+package chap07_class.board;
+
+public class Board {
+	int boardNo;
+	String boadTitle;
+	String boardContent;
+	String boardWriter;
+	String boardDate;
+
+	public Board() {
+
+	}
+
+	public Board(int boardNo, String boadTitle, String boardContent, String boardWriter, String boardDate) {
+		this.boardNo = boardNo;
+		this.boadTitle = boadTitle;
+		this.boardContent = boardContent;
+		this.boardWriter = boardWriter;
+		this.boardDate = boardDate;
+	}
+
+	public int getBoardNo() {
+		return boardNo;
+	}
+
+	public void setBoardNo(int boardNo) {
+		this.boardNo = boardNo;
+	}
+
+	public String getBoadTitle() {
+		return boadTitle;
+	}
+
+	public void setBoadTitle(String boadTitle) {
+		this.boadTitle = boadTitle;
+	}
+
+	public String getBoardContent() {
+		return boardContent;
+	}
+
+	public void setBoardContent(String boardContent) {
+		this.boardContent = boardContent;
+	}
+
+	public String getBoardWriter() {
+		return boardWriter;
+	}
+
+	public void setBoardWriter(String boardWriter) {
+		this.boardWriter = boardWriter;
+	}
+
+	public String getBoardDate() {
+		return boardDate;
+	}
+
+	public void setBoardDate(String boardDate) {
+		this.boardDate = boardDate;
+	}
+
+	public void printBoardInfo()
+
+}

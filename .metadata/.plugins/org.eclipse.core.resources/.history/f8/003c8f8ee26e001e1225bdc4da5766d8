@@ -1,0 +1,17 @@
+package date_231019.advance_02;
+
+public class ContractJob extends Employee {
+	int workDay;
+
+	@Override
+	public double getMonthPay() {
+		double monthlyPay = pay * workDay;
+		return monthlyPay;
+	}
+
+	@Override
+	public void showEmployeeInfo() {
+		System.out.println("계약직");
+		super.showEmployeeInfo();
+	}
+}

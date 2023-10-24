@@ -1,0 +1,8 @@
+package date_231019;
+
+public class Parent {
+	String lastName;
+	String bloodType;
+	double height;
+	String skinColor;
+}

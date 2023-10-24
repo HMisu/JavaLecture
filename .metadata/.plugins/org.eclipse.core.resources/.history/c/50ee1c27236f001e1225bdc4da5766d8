@@ -1,0 +1,14 @@
+package date_231020.car;
+
+public class ElectronicCar implements Car {
+
+	@Override
+	public void seppedUp() {
+		System.out.println("속도를 높인다.");
+	}
+
+	@Override
+	public void speedDown() {
+	}
+
+}

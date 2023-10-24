@@ -1,0 +1,16 @@
+package chap06_method.calc;
+
+public class _01_AccessModifier {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calculator cal = new Calculator();
+
+		cal.add();
+		cal.sub();
+		cal.mul();
+		
+		// cal.div() 빼고 모두 사용 가능
+	}
+
+}

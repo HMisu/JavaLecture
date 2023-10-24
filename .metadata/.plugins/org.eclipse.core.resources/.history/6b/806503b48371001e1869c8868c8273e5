@@ -1,0 +1,28 @@
+package date_231023;
+
+import java.util.Scanner;
+
+public class Basic_02 {
+	// 사용자가 입력한 문자열에서 알파벳의 모음을 제거하여 출력하세요.
+	// 대문자 모음, 소문자 모음 모두 제거. 모음은 a, e, i, o, u
+
+	public static void main(String[] args) {
+		String[] abc = { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };
+		String result = "";
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("문자열을 입력하세요.");
+		String s = sc.nextLine();
+
+		for (int i = 0; i < s.length(); i++) {
+			for (int j = 0; j < abc.length; j++) {
+				if (s.charAt(i) == abc[j]) {
+					result += s.charAt(i);
+					break;
+				}
+			}
+		}
+
+		System.out.println(result);
+	}
+}

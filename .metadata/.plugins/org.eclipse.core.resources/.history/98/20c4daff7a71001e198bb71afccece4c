@@ -1,0 +1,23 @@
+package chap14_objectarray;
+
+import chap14_objectarray.objectarray.ClassArray;
+import chap14_objectarray.objectarray.English;
+import chap14_objectarray.objectarray.InterfaceArray;
+import chap14_objectarray.objectarray.MathMetics;
+import chap14_objectarray.objectarray.Programming;
+
+public class _02_InterfaceArray {
+
+	public static void main(String[] args) {
+		InterfaceArray[] ia = new InterfaceArray[3];
+
+		ia[0] = new English();
+		ia[1] = new Programming();
+		ia[2] = new MathMetics();
+		
+		for (InterfaceArray i : ia) {
+			ca.proceedLecture();
+		}
+	}
+
+}

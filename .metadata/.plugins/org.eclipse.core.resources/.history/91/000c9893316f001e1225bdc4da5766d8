@@ -1,0 +1,18 @@
+package date_231020.student;
+
+public class EngStudent extends CommonStat implements Student {
+
+	@Override
+	public void saveInfo() {
+	}
+
+	@Override
+	public void printInfo() {
+	}
+
+	@Override
+	public double getAvg() {
+		return 0;
+	}
+
+}

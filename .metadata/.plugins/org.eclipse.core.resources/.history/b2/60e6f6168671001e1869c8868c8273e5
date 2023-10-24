@@ -1,0 +1,12 @@
+package date_231023;
+
+public class Middle_02 {
+	// 길이가 12인 char 배열을 선언하고 {'b', 'c', 's', 'i', 'i', 'o', 'q', 'n', 't', 'm', 'l',
+	// 't'}로 초기화합니다.
+	// 단어를 bit, com, sql, int로 만들어서 모두 출력하세요.(힌트 bit => [0], [4], [8]에 있습니다.)
+
+	public static void main(String[] args) {
+
+	}
+
+}

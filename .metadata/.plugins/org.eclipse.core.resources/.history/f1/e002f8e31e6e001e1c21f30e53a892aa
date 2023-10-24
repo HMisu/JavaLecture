@@ -1,0 +1,9 @@
+package chap09_inherit;
+
+public class HyundaiCar {
+
+	public static void main(String[] args) {
+
+	}
+
+}

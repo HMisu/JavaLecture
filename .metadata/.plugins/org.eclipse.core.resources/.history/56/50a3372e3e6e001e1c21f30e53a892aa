@@ -1,0 +1,8 @@
+package chap10_polymorphism.tv;
+
+public class SamsungTv extends Tv{
+	public void poweOn() {
+		System.out.println("제조사: 삼성");
+		super.powerOn();
+	}
+}

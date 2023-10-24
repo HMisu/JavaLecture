@@ -1,0 +1,22 @@
+package date_231020.car;
+
+public class HybridCar implements ElectronicCar, FuelCar {
+
+	@Override
+	public void seppedUp() {
+		System.out.println("속도를 높이다");
+	}
+
+	@Override
+	public void speedDown() {
+	}
+
+	@Override
+	public void addFuel() {
+	}
+
+	@Override
+	public void charge() {
+	}
+
+}

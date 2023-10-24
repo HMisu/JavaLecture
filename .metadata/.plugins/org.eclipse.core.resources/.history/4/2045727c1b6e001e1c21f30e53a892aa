@@ -1,0 +1,11 @@
+package chap08_static;
+
+public class _01_Static {
+
+	public static void main(String[] args) {
+		//1.static 변수나 메소드 사용
+		//clss원형.변수명, 메소드명으로 사용함
+		
+	}
+
+}

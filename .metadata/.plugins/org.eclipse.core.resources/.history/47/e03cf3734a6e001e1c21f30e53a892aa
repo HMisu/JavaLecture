@@ -1,0 +1,29 @@
+package chap11_abstraction.tv;
+
+public class SamsungTv extends Tv {
+
+	@Override
+	public void powerOn() {
+	}
+
+	@Override
+	public void powerOff() {
+	}
+
+	@Override
+	public void operate(int channel) {
+	}
+
+	@Override
+	public void moveTo(int channel) {
+	}
+
+	@Override
+	public void channelUp() {
+	}
+
+	@Override
+	public void channelDown() {
+	}
+	
+}

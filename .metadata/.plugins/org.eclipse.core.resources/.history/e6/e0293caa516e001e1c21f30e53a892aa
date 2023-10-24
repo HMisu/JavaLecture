@@ -1,0 +1,17 @@
+package date_231019;
+
+public class Mammal {
+	int age;
+	String size;
+	int legCnt;
+
+	public Mammal() {
+
+	}
+	
+	public Mammal(int age, String size, int legCnt) {
+		this.age = age;
+		this.size = size;
+		this.legCnt = legCnt;
+	}
+}

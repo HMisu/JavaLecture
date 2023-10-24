@@ -1,0 +1,50 @@
+package chap04_controlstatement;
+
+public class _07_DuplicatedFor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 2~9단까지 구구단 출력
+		/*
+		for(int i=2; i<=9; i++) {
+			for(int j=1; j<=9; j++) {
+				System.out.print(i+" * "+j+" = "+(i*j)+" ");
+			}
+			System.out.println();
+		}
+		*/
+		
+		/*
+		for(int i=0; i<5; i++) {
+			for(int j=0; j<5; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		*/
+		
+		// 3. AB + BA = 99를 만족하는 A, B값을 모두 출력하세요.
+		// (A, B는 0~9의 정수)
+		
+		for(int a=0; a<10; a++) {
+			for(int b=0; b<10; b++) {
+				String s1 = Integer.toString(a)+Integer.toString(b);
+				String s2 = Integer.toString(b)+Integer.toString(a);
+				if(Integer.parseInt(s1)+Integer.parseInt(s2) == 99) {
+					System.out.println("a:"+a+" b:"+b);
+				}
+			}
+		}
+		
+		for(int a=0; a<10; a++) {
+			for(int b=0; b<10; b++) {
+				int n1 = a*10 + b;
+				int n2 = b*10 + a;
+				if((n1+n2) == 99) {
+					System.out.println("a:"+a+" b:"+b);
+				}
+			}
+		}
+	}
+
+}

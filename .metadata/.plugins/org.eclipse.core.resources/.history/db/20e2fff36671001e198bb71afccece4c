@@ -1,0 +1,8 @@
+package date_231020.student;
+
+public class CommonStat {
+	int sno;
+	String name;
+	String[] subject;
+	int[] finalExamScore;
+}

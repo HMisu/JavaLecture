@@ -1,0 +1,17 @@
+package chap12_interface.device;
+
+public class LgTv implements Tv {
+
+	@Override
+	public void show() {
+	}
+
+	@Override
+	public void sound() {
+	}
+
+	@Override
+	public void changeChannel(int channel) {
+	}
+
+}

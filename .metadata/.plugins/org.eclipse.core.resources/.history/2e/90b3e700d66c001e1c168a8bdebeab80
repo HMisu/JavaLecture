@@ -1,0 +1,25 @@
+package date_231017;
+
+public class Basic_09 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] arr = new int[10];
+		
+		int num=0;
+		int index=0;
+		while(index<10) {
+			num++;
+			if(num%3==0) {
+				arr[index]=num;
+				index++;
+				System.out.print(num);
+			}
+		}
+	
+		for(int i=arr.length; i<0; i--) {
+			System.out.print(arr[i]+" ");
+		}
+	}
+
+}

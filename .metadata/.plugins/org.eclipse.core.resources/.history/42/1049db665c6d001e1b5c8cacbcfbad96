@@ -1,0 +1,13 @@
+package chap06_method;
+
+import chap06_method.calc.ReturnCalculator;
+
+public class _02_ReturnType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ReturnCalculator rclac = new ReturnCalculator();
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package chap12_interface.device;
+
+public class Tv implements Display, Speaker {
+
+	@Override
+	public void sound() {
+	}
+
+	@Override
+	public void show() {
+	}
+
+}

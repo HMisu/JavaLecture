@@ -1,0 +1,27 @@
+package date_231019;
+
+public class Felidae extends Mammal {
+	int name;
+	String kingdom;
+	int divison;
+	String life;
+
+	public Felidae() {
+
+	}
+
+	public void eat() {
+		System.out.println("먹이를 먹는다.");
+	}
+
+	public void sleep() {
+		System.out.println("잠을 잔다.");
+	}
+
+	public Felidae(int name, String kingdom, int divison, String life) {
+		this.name = name;
+		this.kingdom = kingdom;
+		this.divison = divison;
+	}
+
+}

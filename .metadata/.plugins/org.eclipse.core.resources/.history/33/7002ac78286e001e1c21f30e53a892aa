@@ -1,0 +1,8 @@
+package chap09_inherit.calc;
+
+//Calculator를 상속받은 Add, Sub, Mul, Div 클래스 만들고 overrding;
+public class Calculator {
+	public int calculator() {
+		return 0;
+	}
+}

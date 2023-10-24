@@ -1,0 +1,17 @@
+package date_231019.advance_02;
+
+public class TemporaryJob extends Employee {
+	int bonus;
+
+	@Override
+	public double getMonthPay() {
+		double monthlyPay = pay / 12 + bonus / 12;
+		return monthlyPay;
+	}
+
+	@Override
+	public void showEmployeeInfo() {
+		System.out.println("정규직");
+		System.out.println("사번: " + eno + "이름: " + name + "급여: " + pay);
+	}
+}

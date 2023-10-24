@@ -1,0 +1,10 @@
+package date_231018;
+
+public class RockScissPaperGame {
+
+	public static void main(String[] args) {
+		RockScissPaper game = new RockScissPaper();
+		game.start();
+	}
+
+}

@@ -1,0 +1,39 @@
+package chap11_abstraction.tv;
+
+public class SamsungTv extends Tv {
+	public int lastChannel;
+
+	public SamsungTv() {
+		lastChannel = 1;
+	}
+
+	@Override
+	public void powerOn() {
+		System.out.println("제조사: 삼성");
+		System.out.println("TV의 전원을 켭니다.");
+	}
+
+	@Override
+	public void powerOff() {
+		System.out.println("제조사: 삼성");
+		System.out.println("TV의 전원을 끕니다.");
+	}
+
+	@Override
+	public void operate(int channel) {
+		System.out.println("제조사: 삼성");
+	}
+
+	@Override
+	public void moveTo(int channel) {
+	}
+
+	@Override
+	public void channelUp() {
+	}
+
+	@Override
+	public void channelDown() {
+	}
+
+}

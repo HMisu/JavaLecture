@@ -1,0 +1,25 @@
+package date_231018;
+
+public class Book {
+	public String title;
+	public String writer;
+	public String publisher;
+	public int price;
+
+	public Book() {
+
+	}
+
+	public Book(String title, String writer, String publisher, int price) {
+		this.title = title;
+		this.writer = writer;
+		this.publisher = publisher;
+		this.price = price;
+	}
+
+	public void bookInfo() {
+		System.out.println("이름: " + name);
+		System.out.println("학번:" + id);
+		System.out.println("학과: " + department);
+	}
+}

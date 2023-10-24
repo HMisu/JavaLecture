@@ -1,0 +1,29 @@
+package chap05_Array;
+
+public class _02_ArrayEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 10개 정수형 배열 생성하고 
+		int[] numArr = new int[10];
+		
+		int i=0;
+		int index=0;
+		while(true) {
+			if(index==9)
+				break;
+			if(i%3==0) {
+				numArr[index]=i;
+				index++;
+			}
+			i++;
+		}
+		
+		for(int j=0; j<numArr.length; j++) {
+			System.out.print(numArr[j]);
+		}
+		
+
+	}
+
+}

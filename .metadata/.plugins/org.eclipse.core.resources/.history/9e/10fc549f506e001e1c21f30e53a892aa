@@ -1,0 +1,9 @@
+package chap11_abstraction;
+
+public class _02_AbstractionEx {
+
+	public static void main(String[] args) {
+
+	}
+
+}

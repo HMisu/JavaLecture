@@ -1,0 +1,21 @@
+package chap09_inherit.calc;
+
+public class Add extends Calculator {
+	int c;
+
+	public Add() {
+
+	}
+
+	public Add(int a, int b) {
+		/*this.a = a;
+		this.b = b;*/
+		super(a, b); // 위와 같은 의미. 부모의 생성자 호출.
+
+		this.c = c;
+	}
+
+	public int calculate() {
+		return a + b;
+	}
+}
